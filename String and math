@@ -1,0 +1,19 @@
+print("=== String and Math Operations ===\n")
+
+text1 = input("Enter a word: ")
+text2 = input("Enter another word: ")
+
+print("\nString Operations:")
+print("Concatenation:", text1 + text2)
+print("Repetition:", text1 * 3)
+
+num1 = float(input("\nEnter a number: "))
+num2 = float(input("Enter another number: "))
+
+print("\nMath Operations:")
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:", num1 / num2)
+
+print("\n=== End of Program ===")
